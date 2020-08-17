@@ -1,18 +1,17 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import PropTypes from 'prop-types';
-// import myImage from '../assets/raindrops-wallpaper-3.jpg';
 
 // background-image: url(${myImage});
 const GlobalStyle = createGlobalStyle`
   body {
-    background-color: #e6f0ff;
+    background-color: ${(props) => ((props.mode === 'light') ? '#e6f0ff' : '#013A78')}
   }
 `;
 
-const Layout = ({ children }) => (
+const Layout = ({ mode, children }) => (
   <>
-    <GlobalStyle />
+    <GlobalStyle mode={mode} />
     {children}
   </>
 );
@@ -20,5 +19,6 @@ const Layout = ({ children }) => (
 export default Layout;
 
 Layout.propTypes = {
+  mode: PropTypes.string,
   children: PropTypes.node.isRequired,
 };
