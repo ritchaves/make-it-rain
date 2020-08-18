@@ -1,5 +1,7 @@
 <h1 align="center">
-  Make It Rain
+  <a href="https://makeitrain.netlify.app/">
+    Make It Rain
+  </a>
 </h1>
 
 
