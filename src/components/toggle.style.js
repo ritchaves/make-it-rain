@@ -20,4 +20,5 @@ export const Container = styled.div`
   top: 0;
   right: 0;
   position: absolute;
+  z-index: 4;
 `;

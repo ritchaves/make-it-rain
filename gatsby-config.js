@@ -22,6 +22,14 @@ module.exports = {
               prettierOptions: {},
             },
           },
+          {
+            resolve: 'gatsby-plugin-react-svg',
+            options: {
+              rule: {
+                include: /\.inline\.svg$/,
+              },
+            },
+          },
           // any highlight plugin should be after
           'gatsby-plugin-material-ui',
           'gatsby-plugin-styled-components',

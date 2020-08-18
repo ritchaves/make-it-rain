@@ -14,10 +14,12 @@ const fall = keyframes`
 export const SpanEmoji = styled.span`
   font-size: 30px;
 `;
+
 export const Container = styled.div`
   position: absolute;
   top: calc((100 + 50) * -1px);
   left: 0;
+  z-index: -3;
   margin-left: ${(props) => props.position}%;
   padding-top: ${(props) => props.position}%;
   animation: ${fall} 4s linear infinite;

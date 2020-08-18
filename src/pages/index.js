@@ -4,6 +4,7 @@ import MakeItRainButton from '../components/make-it-rain';
 import Layout from '../components/layout';
 import emojis from '../constants/emojis';
 import Toggle from '../components/toggle';
+import Clouds from '../components/clouds';
 import useLocalStorage from '../utils/hooks/useLocalStorage';
 
 // import Header from '../components/header'; ｡◕‿◕｡ ｡◕‿◕｡ ｡◕‿◕｡
@@ -23,6 +24,7 @@ const Home = () => {
     <Layout mode={mode}>
       <Container>
         <Toggle setMode={setMode} />
+        <Clouds />
         <MakeItRainButton listEmoji={emojis} />
       </Container>
     </Layout>

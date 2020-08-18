@@ -1,0 +1,75 @@
+.cloud {
+  position: absolute;
+  top: -328px;
+  border-radius: 50%;
+  width: 100%;
+  height: 180px;
+  z-index: 2;
+}
+
+
+#cloudShape {
+  filter: url(#filter-back);
+  box-shadow: 300px 300px 30px -20px #fff;
+}
+
+#cloudShapeMid {
+  filter: url(#filter-mid);
+  box-shadow: 300px 340px 70px -60px rgba(158, 168, 179, 0.5);
+}
+
+#cloudShapeFront {
+  filter: url(#filter-front);
+  box-shadow: 300px 370px 60px -100px rgba(0, 0, 0, 0.3);
+}
+
+#cloudShape2 {
+  filter: url(#filter-back);
+  box-shadow: 300px 300px 30px -20px #fff;
+}
+
+#cloudShapeMid2 {
+  filter: url(#filter-mid);
+  box-shadow: 300px 340px 70px -60px rgba(158, 168, 179, 0.5);
+}
+
+#cloudShapeFront2 {
+  filter: url(#filter-front);
+  box-shadow: 300px 370px 60px -100px rgba(0, 0, 0, 0.3);
+}
+
+#cloudShape3 {
+  right: 85%;
+  filter: url(#filter-back);
+  box-shadow: 300px 300px 30px -20px #fff;
+}
+
+#cloudShapeMid3 {
+  right: 85%;
+  filter: url(#filter-mid);
+  box-shadow: 300px 340px 70px -60px rgba(158, 168, 179, 0.5);
+}
+
+#cloudShapeFront3 {
+  right: 85%;
+  filter: url(#filter-front);
+  box-shadow: 300px 370px 60px -100px rgba(0, 0, 0, 0.3);
+}
+
+#cloudShape4 {
+  right: 85%;
+  filter: url(#filter-back);
+  box-shadow: 300px 300px 30px -20px #fff;
+}
+
+#cloudShapeMid4 {
+  right: 85%;
+  filter: url(#filter-mid);
+  box-shadow: 300px 340px 70px -60px rgba(158, 168, 179, 0.5);
+}
+
+#cloudShapeFront4 {
+  right: 85%;
+  filter: url(#filter-front);
+  box-shadow: 300px 370px 60px -100px rgba(0, 0, 0, 0.3);
+}
