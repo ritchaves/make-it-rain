@@ -20,6 +20,7 @@ const Container = styled.div`
 
 const Home = () => {
   const [mode, setMode] = useLocalStorage('mode', 'light');
+
   return (
     <Layout mode={mode}>
       <Container>
